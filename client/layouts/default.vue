@@ -9,7 +9,7 @@
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
 import Header from '@/components/templates/header.vue'
-import Footer from '../components/templates/footer.vue'
+import Footer from '@/components/templates/footer.vue'
 
 export default defineComponent({
   components: {
