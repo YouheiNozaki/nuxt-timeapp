@@ -15,7 +15,6 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/composition-api.ts' },
@@ -39,17 +38,18 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/composition-api',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
-
+  srcDir: 'client/',
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   typescript: {
     typeCheck: {
       eslint: {
-        files: './**/*.{ts,js,vue}',
+        files: './client/**/*.{ts,js,vue}',
       },
     },
   },
