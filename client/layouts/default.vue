@@ -1,8 +1,22 @@
 <template>
   <div>
+    <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
+<script lang="ts">
+import { defineComponent } from '@nuxtjs/composition-api'
+import Header from '../components/templates/header'
+import Footer from '../components/templates/footer'
+
+export default defineComponent({
+  components: {
+    Header,
+    Footer,
+  },
+})
+</script>
 
 <style>
 html {

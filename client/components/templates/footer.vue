@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>SenseiTime</h1>
+    <p>Footer | SenseiTime</p>
   </header>
 </template>
 
@@ -8,6 +8,6 @@
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
-  name: 'Header',
+  name: 'Footer',
 })
 </script>
