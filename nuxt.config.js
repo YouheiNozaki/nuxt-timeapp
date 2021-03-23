@@ -19,6 +19,7 @@ export default {
   plugins: [
     { src: '~/plugins/composition-api.ts' },
     { src: '~/plugins/firebase.ts' },
+    { src: '~/plugins/firebase-auth.ts', mode: 'client' },
   ],
   env: {
     FIREBASE_API_KEY: 'AIzaSyA3PqKsxdRHSdbO6IuferqfKC7rMXuZCCU',
