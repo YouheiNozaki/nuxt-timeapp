@@ -1,6 +1,6 @@
 <template>
   <button>
-    <p>ボタン</p>
+    <p class="button-text">ボタン</p>
   </button>
 </template>
 
@@ -11,3 +11,8 @@ export default defineComponent({
   name: 'BaseButton',
 })
 </script>
+<style scoped lang="scss">
+.button-text {
+  color: $primary;
+}
+</style>
