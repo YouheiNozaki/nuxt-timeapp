@@ -13,6 +13,6 @@ export default defineComponent({
 </script>
 <style scoped lang="scss">
 .button-text {
-  color: $primary;
+  background-color: $blue;
 }
 </style>
