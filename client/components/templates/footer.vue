@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <footer>
     <p>Footer | SenseiTime</p>
-  </header>
+  </footer>
 </template>
 
 <script lang="ts">

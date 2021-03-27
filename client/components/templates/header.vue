@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1>SenseiTime</h1>
-    <BaseButton />
+    <BaseButton size="large">ログイン</BaseButton>
   </header>
 </template>
 
