@@ -6,5 +6,13 @@ export default {
 
 export const Normal = () => ({
   components: { BaseButton },
-  template: '<BaseButton/>',
+  template: '<BaseButton size="middle"/>',
+})
+export const Small = () => ({
+  components: { BaseButton },
+  template: '<BaseButton size="small"/>',
+})
+export const Large = () => ({
+  components: { BaseButton },
+  template: '<BaseButton size="large"/>',
 })
